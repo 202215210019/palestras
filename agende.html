@@ -1,0 +1,189 @@
+	<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>IV PALESTRAS</title>
+		<meta charset="utf-8">
+		<link href="IV.css" rel="stylesheet">	
+	</head>
+	<body>
+		<header>
+			<div class="center">
+				<div class="logo"><img src="imagens/logo.png"></div> <!--Logo-->
+				<div>
+				<nav>
+					<ul class="menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="aquemsomos.html"> Quem somos </a></li>
+						<li><a href="acomofunciona.html"> Como funcionamos</a></li>
+						<li><a href="agende.html"> Agendamento </a></li>
+					</ul>
+				</nav>
+				</div><!--menu-->
+				</div><!--center-->
+			</header>
+			<div class="tituloform">
+		<h1>Prencha Seus Dados</h1>
+		</div>
+			<form action="arquivo.php" method="POST">
+	<div>
+	<br>
+	<label> Nome:
+		<input type="text" name="nome" placeholder="Digite seu nome completo">
+	</label>
+	<br>
+	<br>
+	<label> E-mail:
+		<input type="email" name="email" placeholder="Digite seu email">
+	</label>
+	<br>
+	<br>
+	<label> Idade:
+		<input type="number" name="idade" start="1" value="0" min="18" max="100">
+	</label>
+	<br>
+	<br>
+	<label> Data de nascimento:
+		<input type="date" name="datanasci">
+	</label>
+	<br>
+	<br>
+	<label> senha:
+		<input type="password" name="senha" maxlength="9">
+	</label>
+	<br>
+	<br>
+<div>
+<fieldset>
+<legend>Genero:</legend>
+		<input type="radio" name="sexo" value="Masculino" id="sexomasc">
+		<label for="sexomasc"> Masculino </label>
+		
+		<input type="radio" name="sexo" value="Feminino" id="sexofem">
+		<label for="sexofem"> Feminino </label>
+		<input type="radio" name="sexo" value="nao binario" id="Não Binario" checked>
+		<label for="outro"> Não binario</label>
+		
+</fieldset>
+	<fieldset> <legend> PLANO  </legend>
+	<label>
+	<input type="checkbox" value="DE 6 MESES" name="diciplinas">
+DE 6 MESES
+	</label>
+	<label>
+	<input type="checkbox" value="DE 1 ANO " name="diciplinas">
+	DE 1 ANO
+	</label>
+	<label>
+	<input type="checkbox" value=" DE 3 ANOS" name="diciplinas">
+	DE 3 ANOS
+	</label>
+	<label>
+	<input type="checkbox" value=" NÃO QUERO NENHUM " name="diciplinas">
+	 NÃO QUERO NENHUM
+	</label>
+	</fieldset>
+	</fieldset>
+	<div>
+	<br>
+	
+	</select>
+	</div>
+	<div>
+	<br>
+	<label>
+	<label> tema da palestra</label>
+	<select name="curso">
+		<option value="tema da palestra" ></option> 
+		<option value="tema da palestra" > Palestra humorística </option> 
+		<option value="tema da palestra" >Palestra inspiracional</option> 
+		<option value="tema da palestra" >Palestra técnica </option> 
+		<option value="tema da palestra" >Palestra para empresas </option> 
+		<option value="tema da palestra" >Palestra gratuita </option> 
+		</select>
+	</div>
+	<div>
+	<br>
+	<label> locais da nossa palestra:
+		<input type="text" name="locais da nossa palestra" list="opcaodelocais">
+		<datalist id="opcaodelocais">
+			<option value="IFBA nossa rede presencial ">
+			<option value="GOOGLE MEET rede online">
+			<option value="ZOOM rede online">
+		</datalist>
+		</label>
+	</div>
+	<br>
+	<label> O Quanto Você Gostou Do Nosso Site:
+		<input type="range" name="gostou" value="0" min="5" max="100" step="1">
+	</label>
+	<br>
+	<br>
+	<div>
+	<button type="submit"> Enviar</button>
+	<button type="resert"> Apagar formulário</button>
+			</nav>
+			</div>
+				<!--footer-->
+	<footer class="footer">
+  <div class="footer__addr">
+    <h1 class="footer__logo">IV Palestras e Auto-ajuda</h1>
+        
+    <h2>Contatos</h2>
+    
+    <address>
+      4002-8922<br>
+          
+      <a class="footer__btn" href="ivpalestras@gmail.com">Email</a>
+    </address>
+  </div>
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">  Media</h2>
+
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Em todas as redes sociais</a>
+        </li>
+        <li>
+          <a href="#">@IV.palestras </a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item nav__item--extra">
+      <h2 class="nav__title">Website Designer by</h2>
+      
+      <ul class="nav__ul nav__ul--extra">
+        <li>
+          <a href="#">Ingrid V.</a
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item">
+      <h2 class="nav__title">Legal</h2>
+      
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Politica de Privacidade</a>
+        </li>
+        
+        <li>
+          <a href="#">Termos de uso</a>
+        </li>
+        
+      </ul>
+    </li>
+  </ul>
+  
+  <div class="legal">
+    <p>&copy; 2022  All rights reserved.</p>
+    
+    <div class="legal__links">
+      <span>Made with <span class="heart">♥
+    </div>
+  </div>
+</footer>
+</body>
+			</html>
